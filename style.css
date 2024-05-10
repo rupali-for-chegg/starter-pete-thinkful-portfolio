@@ -18,7 +18,76 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+ 
+ 
+  padding: 20px 0; /* Add padding as needed */
+}
+
+.header-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items horizontally */
+  align-items: center; /* Vertically center items */
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the header content */
+  padding: 0 20px; /* Add padding as needed */
+}
+
+.logo {
+  margin: 0; /* Remove default margin */
+}
+
+
+/* New CSS for the About section */
+#about {
+  text-align: left; /* Center align the content within the About section */
+}
+
+.about-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: left; /* Vertically left: ; items */
+  justify-content:flex-start; /* Horizontally left items */
+  margin-bottom: 20px; /* Add some space between image and text */
+}
+
+.about-image {
+  margin-right: 20px; /* Add some space between image and text */
+}
+
+.about-text {
+  text-align: left; /* Left align text */
+}
+
+.about-text h3 {
+  margin-top: 0; /* Remove default margin */
+}
+
+/* Additional styling for Pete's Background section */
+#about section {
+  margin-top: 20px; /* Add some space between About and Pete's Background sections */
+}
+
+/* New CSS for the Portfolio section */
+#portfolio {
+  text-align: center; /* Center align the content within the Portfolio section */
+}
+
+.portfolio-gallery {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align items horizontally */
+  gap: 40px; /* Add spacing between projects */
+  margin-top: 20px; /* Add some space between Portfolio heading and projects */
+}
+
+.project {
+  text-align: center; /* Left align text within project */
+}
+
+.project img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+}
+
+.project-description {
+  font-size: 14px; /* Set font size for project descriptions */
 }
 
 /* Containers */
